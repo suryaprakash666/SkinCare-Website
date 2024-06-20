@@ -1,9 +1,10 @@
 import React from 'react';
-import LoginPage from './LoginPage';
+import {LoginPage,StarterQuery} from './LoginPage';
 
 function App() {
   return (
     <div className="App">
+      <StarterQuery/>
       <LoginPage />
     </div>
   );
