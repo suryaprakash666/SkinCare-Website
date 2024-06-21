@@ -1,15 +1,17 @@
 import React from 'react';
-import {LoginPage,StarterQuery} from './LoginPage';
-import Navbar from './homepage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import TotalLoginPage from './LoginPage';
+import TotalhomePage from './homepage'
+// import {LoginPage,StarterQuery} from './LoginPage';
 
 function App() {
   return (
-    <div className="App">
-      <StarterQuery/>
-      <LoginPage />
-      <Navbar />
-
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<TotalLoginPage/>}/>
+        <Route path="/home" element={<TotalhomePage/>}/>
+      </Routes>
+    </Router>
   );
 }
 

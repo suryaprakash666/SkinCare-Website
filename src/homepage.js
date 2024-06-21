@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './homepage.css';
 
     function Navbar(){
@@ -14,5 +14,14 @@ import './homepage.css';
     
         )
       }
+
+
+      function TotalhomePage(){
+        return(
+            <>
+            <Navbar/>
+            </>
+        )
+      }
     
-export default Navbar;
+export default TotalhomePage;

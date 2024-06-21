@@ -9,9 +9,7 @@ function TriggerLoginForm(){
   starterQuery.style.display = 'none';
 }
 
-<style>
 
-</style>
 
 function StarterQuery(){
   return(
@@ -49,4 +47,12 @@ function LoginPage() {
   );
 }
 
-export { StarterQuery, LoginPage };
+function TotalLoginPage(){
+  return(
+    <div className='totalloginpage'>
+    <StarterQuery/>
+    <LoginPage/>
+    </div>
+  )
+}
+export default TotalLoginPage;

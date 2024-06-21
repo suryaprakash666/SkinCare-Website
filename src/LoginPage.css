@@ -1,9 +1,13 @@
 /* Basic reset for margin and padding */
 /* in your CSS file */
-body {
-  background-image: url('homepagebg1.jpg');
-  background-size: cover;
-}
+ .totalloginpage{
+    background-image: url('homepagebg1.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
 * {
   margin: 0;
