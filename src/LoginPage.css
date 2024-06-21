@@ -10,16 +10,12 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Center the form on the page */
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
-/* Container for the login form */
 .login-container {
   background-color: #ffffff;
   padding: 20px;
@@ -29,15 +25,11 @@ body {
   text-align: center;
   display: none;
 }
-
-/* Form element styles */
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
-/* Input field styles */
 input[type="text"],
 input[type="password"] {
   padding: 10px;
@@ -46,8 +38,6 @@ input[type="password"] {
   font-size: 16px;
   width: 100%;
 }
-
-/* Label styles */
 label {
   display: flex;
   flex-direction: column;
@@ -55,8 +45,6 @@ label {
   font-size: 14px;
   margin-bottom: 5px;
 }
-
-/* Button styles */
 button[type="submit"] {
   padding: 10px;
   background-color: #007bff;
@@ -71,8 +59,6 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
-
-/* Heading styles */
 h2 {
     margin-bottom: 20px;
     color: #333333;
@@ -84,8 +70,9 @@ h2 {
   }
 .GenderButtons{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  float:right;
 }
 
 
